@@ -24,12 +24,12 @@ public class sommatif_victor2
 				int somme = 0; // Variable qui servira pour la somme des nombres impairs
 				int count = 0; // Variable qui compte combien des nombres impairs sont present dans le tableau
 				int moyenne = 0; // Variable qui servira comme la moyenne des nombres impairs
-				for (int i = 0; i < Tab.length; i++)
+				for (int i = 0; i < Tab.length; i++) // On repete (dans ce cas, 20) fois
 				{
-					if(Tab[i]%2!=0) // On verifie si c'est impair
+					if(Tab[i]%2!=0) // On verifie si le nombre est impair
 					{
 						
-						somme=somme+Tab[i]; // On ajoute la nombre impair au somme
+						somme=somme+Tab[i]; // On ajoute le nombre impair au somme
 						count++; // On ajoute 1 au count
 					}
 				
