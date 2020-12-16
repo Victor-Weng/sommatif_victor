@@ -26,7 +26,7 @@ public class sommatif_victor2
 				int moyenne = 0; // Variable qui servira comme la moyenne des nombres impairs
 				for (int i = 0; i < Tab.length; i++)
 				{
-					if(Tab[i]%2!=0)
+					if(Tab[i]%2!=0) // On verifie si c'est impair
 					{
 						
 						somme=somme+Tab[i]; // On ajoute la nombre impair au somme
