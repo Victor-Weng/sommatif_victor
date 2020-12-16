@@ -5,7 +5,7 @@ package sommatif_victor;
 * Nom du Programme : Erreurs
 * Description : Un methode qui permet de saluer un ami en utilisant 
 * son nom. Pourtant, il y a beacoupe des erreurs qu'on devrait
-* corriger.
+* corriger. 
 */
 public class sommatif_victor
 	{
